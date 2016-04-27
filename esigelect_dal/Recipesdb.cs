@@ -20,7 +20,7 @@ namespace esigelect_dal
             sqlcmd = con.dbCommand("recipe_save");
             sqlcmd.Parameters.AddWithValue("@recipeid", o.recipeid);
             sqlcmd.Parameters.AddWithValue("@recipename", o.recipename);
-            sqlcmd.Parameters.AddWithValue("@catid", o.catid);
+            sqlcmd.Parameters.AddWithValue("@catid", o.category.catid);
             sqlcmd.Parameters.AddWithValue("@price", o.price);
             sqlcmd.Parameters.AddWithValue("@image", o.image);
             return sqlcmd.ExecuteNonQuery();
@@ -88,8 +88,11 @@ namespace esigelect_dal
                  c.recipename = dt.Rows[i]["recipename"].ToString();
                  c.recipedesc = dt.Rows[i]["recipedesc"].ToString();
                  c.price = Int32.Parse(dt.Rows[i]["price"].ToString());
-                 c.catid = Int32.Parse(dt.Rows[i]["catid"].ToString());
+                 //c.catid = Int32.Parse(dt.Rows[i]["catid"].ToString());
                  c.image = dt.Rows[i]["image"].ToString();
+
+                 c.category.catid = Int32.Parse(dt.Rows[i]["catid"].ToString());
+                 c.category.categoryname = dt.Rows[i]["categoryname"].ToString();
 
                  Commentdb combdb = new Commentdb();
                  c.commentList = combdb.getbyrecipe(c.recipeid);

@@ -54,9 +54,19 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="admin\categoryadd.aspx" />
+    <Content Include="admin\categorylist.aspx" />
+    <Content Include="admin\commentlist.aspx" />
     <Content Include="admin\default.aspx" />
     <Content Include="admin\main.aspx" />
+    <Content Include="admin\menuitemadd.aspx" />
+    <Content Include="admin\menuitemlist.aspx" />
+    <Content Include="admin\uc\uc_categoryadd.ascx" />
+    <Content Include="admin\uc\uc_categorylist.ascx" />
+    <Content Include="admin\uc\uc_commentslist.ascx" />
     <Content Include="admin\uc\uc_Login.ascx" />
+    <Content Include="admin\uc\uc_menuitemadd.ascx" />
+    <Content Include="admin\uc\uc_menuitemlist.ascx" />
     <Content Include="admin\uc\uc_useradd.ascx" />
     <Content Include="admin\uc\uc_userlist.ascx" />
     <Content Include="admin\useradd.aspx" />
@@ -92,6 +102,27 @@
     <Compile Include="admin\adminMaster.Master.designer.cs">
       <DependentUpon>adminMaster.Master</DependentUpon>
     </Compile>
+    <Compile Include="admin\categoryadd.aspx.cs">
+      <DependentUpon>categoryadd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\categoryadd.aspx.designer.cs">
+      <DependentUpon>categoryadd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\categorylist.aspx.cs">
+      <DependentUpon>categorylist.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\categorylist.aspx.designer.cs">
+      <DependentUpon>categorylist.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\commentlist.aspx.cs">
+      <DependentUpon>commentlist.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\commentlist.aspx.designer.cs">
+      <DependentUpon>commentlist.aspx</DependentUpon>
+    </Compile>
     <Compile Include="admin\default.aspx.cs">
       <DependentUpon>default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -106,12 +137,61 @@
     <Compile Include="admin\main.aspx.designer.cs">
       <DependentUpon>main.aspx</DependentUpon>
     </Compile>
+    <Compile Include="admin\menuitemadd.aspx.cs">
+      <DependentUpon>menuitemadd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\menuitemadd.aspx.designer.cs">
+      <DependentUpon>menuitemadd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\menuitemlist.aspx.cs">
+      <DependentUpon>menuitemlist.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\menuitemlist.aspx.designer.cs">
+      <DependentUpon>menuitemlist.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\uc\uc_categoryadd.ascx.cs">
+      <DependentUpon>uc_categoryadd.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\uc\uc_categoryadd.ascx.designer.cs">
+      <DependentUpon>uc_categoryadd.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\uc\uc_categorylist.ascx.cs">
+      <DependentUpon>uc_categorylist.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\uc\uc_categorylist.ascx.designer.cs">
+      <DependentUpon>uc_categorylist.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\uc\uc_commentslist.ascx.cs">
+      <DependentUpon>uc_commentslist.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\uc\uc_commentslist.ascx.designer.cs">
+      <DependentUpon>uc_commentslist.ascx</DependentUpon>
+    </Compile>
     <Compile Include="admin\uc\uc_Login.ascx.cs">
       <DependentUpon>uc_Login.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="admin\uc\uc_Login.ascx.designer.cs">
       <DependentUpon>uc_Login.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\uc\uc_menuitemadd.ascx.cs">
+      <DependentUpon>uc_menuitemadd.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\uc\uc_menuitemadd.ascx.designer.cs">
+      <DependentUpon>uc_menuitemadd.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\uc\uc_menuitemlist.ascx.cs">
+      <DependentUpon>uc_menuitemlist.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\uc\uc_menuitemlist.ascx.designer.cs">
+      <DependentUpon>uc_menuitemlist.ascx</DependentUpon>
     </Compile>
     <Compile Include="admin\uc\uc_useradd.ascx.cs">
       <DependentUpon>uc_useradd.ascx</DependentUpon>

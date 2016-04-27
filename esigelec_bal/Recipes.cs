@@ -11,11 +11,12 @@ namespace esigelec_bal
     {
         public int recipeid { get; set; }
         public string recipename { get; set; }
-        public int catid { get; set; }
         public string recipedesc { get; set; }
         public int price { get; set; }
         public string image { get; set; }
         public List<Comments> commentList { get; set; }
+
+        public Category category { get; set; }
 
         public int save()
         {

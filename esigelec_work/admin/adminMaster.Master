@@ -22,15 +22,15 @@
             StaticSubMenuIndent="16px">
             <Items>
                 <asp:MenuItem Text="Menu Items" Value="Menu Items">
-                    <asp:MenuItem Text="Add " Value="Add "></asp:MenuItem>
-                    <asp:MenuItem Text="List" Value="List"></asp:MenuItem>
+                    <asp:MenuItem Text="Add " Value="Add" NavigateUrl="~/admin/menuitemadd.aspx"></asp:MenuItem>
+                    <asp:MenuItem Text="List" Value="List" NavigateUrl="~/admin/menuitemlist.aspx"></asp:MenuItem>
                 </asp:MenuItem>
                 <asp:MenuItem Text="Comments" Value="Comments">
-                    <asp:MenuItem Text="List" Value="List"></asp:MenuItem>
+                    <asp:MenuItem Text="List" Value="List" NavigateUrl="~/admin/commentlist.aspx"></asp:MenuItem>
                 </asp:MenuItem>
                 <asp:MenuItem Text="Category" Value="Category">
-                    <asp:MenuItem Text="Add" Value="Add"></asp:MenuItem>
-                    <asp:MenuItem Text="List" Value="List"></asp:MenuItem>
+                    <asp:MenuItem Text="Add" Value="Add" NavigateUrl="~/admin/categoryadd.aspx"></asp:MenuItem>
+                    <asp:MenuItem Text="List" Value="List" NavigateUrl="~/admin/categorylist.aspx"></asp:MenuItem>
                 </asp:MenuItem>
                 <asp:MenuItem Text="Users" Value="Users">
                     <asp:MenuItem Text="Add" Value="Add" NavigateUrl="~/admin/useradd.aspx"></asp:MenuItem>
