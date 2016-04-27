@@ -1,0 +1,9 @@
+C:\Dotnet\esigelec_work\esigelec_work\bin\esigelec_work.dll
+C:\Dotnet\esigelec_work\esigelec_work\bin\esigelec_work.pdb
+C:\Dotnet\esigelec_work\esigelec_work\obj\Debug\esigelec_work.dll
+C:\Dotnet\esigelec_work\esigelec_work\obj\Debug\esigelec_work.pdb
+C:\Dotnet\esigelec_work\esigelec_work\obj\Debug\esigelec_work.csprojResolveAssemblyReference.cache
+C:\Dotnet\esigelec_work\esigelec_work\bin\esigelec_bal.dll
+C:\Dotnet\esigelec_work\esigelec_work\bin\esigelect_dal.dll
+C:\Dotnet\esigelec_work\esigelec_work\bin\esigelec_bal.pdb
+C:\Dotnet\esigelec_work\esigelec_work\bin\esigelect_dal.pdb

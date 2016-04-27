@@ -1,0 +1,39 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Login.master.cs" Inherits="esigelec_work.Login" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>DashBoard</title>
+    <link href="ext/bootstrap/3.2.2/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <script src="ext/bootstrap/3.2.2/js/bootstrap.min.js" type="text/javascript"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+ 
+ 
+
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">Web Centeric Project</a>
+        </div>
+    </nav>
+    <div class="container">
+       
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+           
+               
+            </asp:ContentPlaceHolder>
+        </div>
+      
+	</div>
+    <footer>
+        <p>&copy; Developed By <i>Jyoti Adhikari (ESIGELEC, MSIS)</i></p>
+        <span id="spnusername"></span>
+    </footer>
+  
+</body>
+</html>
